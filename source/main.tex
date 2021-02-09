@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage{lipsum}  % You may remove this which is only for demo to generate random words.
+\usepackage{graphicx}
+
+\title{Tempelate paper}
+
+\author{%
+	Anonymous authors \\
+	Anonymous affiliations
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\lipsum[1]
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+\input{sec_intro.tex}
+
+\section{Learning methods}
+\label{sec:method}
+\input{sec_method.tex}
+
+\section{Experiments}
+\label{sec:exp}
+\input{sec_exp.tex}
+
+\vspace{-.08in}
+\section{Conclusion}
+
+\lipsum[3]
+
+\bibliographystyle{abbrv}
+\bibliography{ref}
+
+\end{document}
