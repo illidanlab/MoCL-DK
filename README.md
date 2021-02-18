@@ -16,27 +16,32 @@ tqdm (most recent)
 tensorboardx (most recent)
 ```
 
+## Key files
+```
+isostere_transformations_new.json: proposed augmentation rules derived from domain knowledge (written in SMARTS format). 
+```
+
 ## Pretrain using domain augmentation and global structure
 
-Pretrain using general augmentation, the available augmentations are `['drop_node', 'permute_edge', 'mask_edge', 'subgraph']`. Note that aug1 and aug2 can be different, e.g., `aug1=drop_node, aug2=permute_edge`.
+1. Pretrain using general augmentation, the available augmentations are `['drop_node', 'permute_edge', 'mask_edge', 'subgraph']`. Note that aug1 and aug2 can be different, e.g., `aug1=drop_node, aug2=permute_edge`.
 
 ```
 python main_cl.py --dataset bace --method local --aug1 drop_node --aug_ratio1 0.2 --aug2 drop_node --aug_ratio2 0.2 --output_model_file pretrain_ --epochs 100 --runseed 0 --lamb 0.0
 ```
 
-Pretrain using domain augmentation, available aug arguments are `[DK1, DK2, DK3, DK5]`.
+2. Pretrain using domain augmentation, available aug arguments are `[DK1, DK2, DK3, DK5]`.
 
 ```
 python main_cl.py --dataset bace --method local --aug1 DK1 --aug2 DK1 --output_model_file pretrain_ --epochs 100 --runseed 0 --lamb 0.0
 ```
 
-Pretrain using additional global information by directly supervision
+3. Pretrain using additional global information by directly supervision
 
 ```
 python main_cl.py --dataset bace --method global --aug1 DK1 --aug2 DK1 --output_model_file pretrain_ --epochs 100 --runseed 0 --global_mode sup --lamb 1.0
 ```
 
-Pretrain using additional global information by contrastive loss, `n_nb` specifies the neighbor size and the available sizes are `[50, 100, 150, 300]`. 
+4. Pretrain using additional global information by contrastive loss, `n_nb` specifies the neighbor size and the available sizes are `[50, 100, 150, 300]`. 
 
 ```
 python main_cl.py --dataset bace --method global --aug1 DK1 --aug2 DK1 --output_model_file pretrain_ --epochs 100 --runseed 0 --global_mode cl --n_nb 100 --lamb 1.0
@@ -45,7 +50,7 @@ python main_cl.py --dataset bace --method global --aug1 DK1 --aug2 DK1 --output_
 
 ## Finetune using pretrained model
 
-Linear protocol: only finetune the linear layer on top of GNN using all the labels avaialble. The following commands includes both general augmentations and proposed domain augmentation.
+1. Linear protocol: only finetune the linear layer on top of GNN using all the labels avaialble. The following commands includes both general augmentations and proposed domain augmentation.
 
 ```
 python main_finetune.py --dataset bace --dataset_load bace --pretrain_method local --semi_ratio 1.0 --protocol linear --aug1 drop_node --aug_ratio1 0.20 --aug2 drop_node --aug_ratio2 0.20 --input_model_file pretrain_ --epochs 50 --runseed 0 --seed 0
@@ -58,7 +63,7 @@ python main_finetune.py --dataset bace --dataset_load bace --pretrain_method glo
 
 ```
 
-Non-linear (semi-supervised) protocol : finetune all the layers using small fraction of labels. The following commands includes both general augmentations and proposed domain augmentation.
+2. Non-linear (semi-supervised) protocol : finetune all the layers using small fraction of labels. The following commands includes both general augmentations and proposed domain augmentation.
 
 ```
 python main_finetune.py --dataset bace --dataset_load bace --pretrain_method local --semi_ratio 0.05 --protocol nonlinear --aug1 drop_node --aug_ratio1 0.20 --aug2 drop_node --aug_ratio2 0.20 --input_model_file pretrain_ --epochs 100 --runseed 0 --seed 0
