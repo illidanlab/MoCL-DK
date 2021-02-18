@@ -45,7 +45,7 @@ python main_cl.py --dataset bace --method global --aug1 DK1 --aug2 DK1 --output_
 
 ## Finetune using pretrained model
 
-linear protocol: only finetune the linear layer on top of GNN using all the labels avaialble. The following commands includes both general augmentations and proposed domain augmentation.
+Linear protocol: only finetune the linear layer on top of GNN using all the labels avaialble. The following commands includes both general augmentations and proposed domain augmentation.
 
 ```
 python main_finetune.py --dataset bace --dataset_load bace --pretrain_method local --semi_ratio 1.0 --protocol linear --aug1 drop_node --aug_ratio1 0.20 --aug2 drop_node --aug_ratio2 0.20 --input_model_file pretrain_ --epochs 50 --runseed 0 --seed 0
@@ -58,7 +58,7 @@ python main_finetune.py --dataset bace --dataset_load bace --pretrain_method glo
 
 ```
 
-non-linear (semi-supervised) protocol : finetune all the layers using small fraction of labels. The following commands includes both general augmentations and proposed domain augmentation.
+Non-linear (semi-supervised) protocol : finetune all the layers using small fraction of labels. The following commands includes both general augmentations and proposed domain augmentation.
 
 ```
 python main_finetune.py --dataset bace --dataset_load bace --pretrain_method local --semi_ratio 0.05 --protocol nonlinear --aug1 drop_node --aug_ratio1 0.20 --aug2 drop_node --aug_ratio2 0.20 --input_model_file pretrain_ --epochs 100 --runseed 0 --seed 0
@@ -70,6 +70,9 @@ python main_finetune.py --dataset bace --dataset_load bace --pretrain_method glo
 python main_finetune.py --dataset bace --dataset_load bace --pretrain_method global --n_nb 100 --semi_ratio 0.05 --protocol nonlinear --aug1 DK1 --aug2 DK1 --input_model_file pretrain_ --epochs 50 --runseed 0 --seed 0 --lamb 1.0
 
 ```
+
+# Saved pretrained models
+We also provide pretrained models for bace in `/results/bace/pretrained_models/` directory. It includes pretrained models from both local contrast and global contrast. 
 
 # Acknowledgement
 
