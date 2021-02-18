@@ -17,9 +17,7 @@ tensorboardx (most recent)
 ```
 
 ## Key files
-```
 isostere_transformations_new.json: proposed augmentation rules derived from domain knowledge (written in SMARTS format). 
-```
 
 ## Pretrain using domain augmentation and global structure
 
