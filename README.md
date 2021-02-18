@@ -4,8 +4,14 @@ Recent years have seen a rapid growth of utilizing graph neural net-works (GNNs)
 
 The current version of the paper can be found here (TBD).
 
-## Compatibility
-The code is compatible with python 3.7
+## Installation
+The code are tested on python 3.7 and following are the dependencies:
+
+```
+pytorch = 1.6.0
+cuda = 10.2
+torch-geometric, rdkit, tqdm, tensorboardx
+```
 
 ## Pretrain using domain augmentation and global structure
 
@@ -34,7 +40,7 @@ python main_cl.py --dataset bace --method global --aug1 DK1 --aug2 DK1 --output_
 ```
 
 
-## finetune using pretrained model
+## Finetune using pretrained model
 
 linear protocol: only finetune the linear layer on top of GNN using all the labels avaialble 
 
@@ -49,7 +55,7 @@ python main_finetune.py --dataset bace --dataset_load bace --pretrain_method glo
 
 ```
 
-non-linear protocol (semi-supervised): finetune all the layers using small fraction of labels 
+non-linear (semi-supervised) protocol : finetune all the layers using small fraction of labels 
 
 ```
 python main_finetune.py --dataset bace --dataset_load bace --pretrain_method local --semi_ratio 0.05 --protocol nonlinear --aug1 drop_node --aug_ratio1 0.20 --aug2 drop_node --aug_ratio2 0.20 --input_model_file pretrain_ --epochs 100 --runseed 0 --seed 0
@@ -61,4 +67,6 @@ python main_finetune.py --dataset bace --dataset_load bace --pretrain_method glo
 python main_finetune.py --dataset bace --dataset_load bace --pretrain_method global --n_nb 100 --semi_ratio 0.05 --protocol nonlinear --aug1 DK1 --aug2 DK1 --input_model_file pretrain_ --epochs 50 --runseed 0 --seed 0 --lamb 1.0
 
 ```
+
+The backbone of the code is inherited from [Strategies for Pre-training Graph Neural Networks](https://github.com/snap-stanford/pretrain-gnns).
 
