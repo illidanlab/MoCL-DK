@@ -11,27 +11,27 @@ The code is compatible with python 3.7
 
 Pretrain using general augmentation 
 
-'''
+```
 python main_cl.py --dataset bace --method local --aug1 drop_node --aug_ratio1 0.2 --aug2 drop_node --aug_ratio2 0.2 --output_model_file pretrain_ --epochs 100 --runseed 0 --lamb 0.0
-'''
+```
 
-Pretrain using domain augmentation, available aug arguments [DK1, Dk2, DK3, DK5]
+Pretrain using domain augmentation, available aug arguments are `[DK1, Dk2, DK3, DK5]`
 
-'''
+```
 python main_cl.py --dataset bace --method local --aug1 DK1 --aug2 DK1 --output_model_file pretrain_ --epochs 100 --runseed 0 --lamb 0.0
-'''
+```
 
 Pretrain using additional global information by directly supervision
 
-'''
+```
 python main_cl.py --dataset bace --method global --aug1 DK1 --aug2 DK1 --output_model_file pretrain_ --epochs 100 --runseed 0 --global_mode sup --lamb 1.0
-'''
+```
 
 Pretrain using additional global information by contrastive loss
 
-'''
+```
 python main_cl.py --dataset bace --method global --aug1 DK1 --aug2 DK1 --output_model_file pretrain_ --epochs 100 --runseed 0 --global_mode cl --n_nb 100 --lamb 1.0
-'''
+```
 
 
 ## finetune using pretrained model
