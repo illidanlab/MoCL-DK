@@ -80,7 +80,7 @@ python main_finetune.py --dataset bace --dataset_load bace --pretrain_method glo
 ```
 
 # Saved pretrained models
-We also provide pretrained models for bace in `/results/bace/pretrained_models/` directory. It includes pretrained models from both local contrast and global contrast. 
+We also provide pretrained models for bace in `/results/bace/pretrained_models/` directory. It includes pretrained models from both local contrast and global contrast, which can be used to reproduce the results in the paper.
 
 # Acknowledgement
 
