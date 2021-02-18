@@ -83,5 +83,7 @@ We also provide pretrained models for bace in `/results/bace/pretrained_models/`
 
 # Acknowledgement
 
+This research is funded by NSF IIS-1749940 (JZ), ONR N00014-17-1-2265 (JZ), NIH 1R01GM134307 (JZ, BC), NIH K01ES028047 (BC).
+
 The backbone of the code is inherited from [Strategies for Pre-training Graph Neural Networks](https://github.com/snap-stanford/pretrain-gnns).
 
