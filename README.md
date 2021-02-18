@@ -19,9 +19,8 @@ tensorboardx = 2.1
 ## Key files
 isostere_transformations_new.json: proposed augmentation rules derived from domain knowledge (written in SMARTS format). 
 
-```
-SMARTS is a language that allows you to specify substructures using rules that are straightforward extensions of SMILES. For example, to search a database for phenol-containing structures, one would use the SMARTS string [OH]c1ccccc1, which should be familiar to those acquainted with SMILES.
-```
+> SMARTS is a language that allows you to specify substructures using rules that are straightforward extensions of SMILES. For example, to search a database for phenol-containing structures, one would use the SMARTS string [OH]c1ccccc1, which should be familiar to those acquainted with SMILES.
+
 More details can be found [here](https://www.daylight.com/dayhtml/doc/theory/theory.smarts.html). 
 
 ## Pretrain using domain augmentation and global structure
