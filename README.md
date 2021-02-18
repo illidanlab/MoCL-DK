@@ -18,13 +18,13 @@ tensorboardx (most recent)
 
 ## Pretrain using domain augmentation and global structure
 
-Pretrain using general augmentation, the available augmentations are `['drop_node', 'permute_edge', 'mask_edge', 'subgraph']`.
+Pretrain using general augmentation, the available augmentations are `['drop_node', 'permute_edge', 'mask_edge', 'subgraph']`. Note that aug1 and aug2 can be different.
 
 ```
 python main_cl.py --dataset bace --method local --aug1 drop_node --aug_ratio1 0.2 --aug2 drop_node --aug_ratio2 0.2 --output_model_file pretrain_ --epochs 100 --runseed 0 --lamb 0.0
 ```
 
-Pretrain using domain augmentation, available aug arguments are `[DK1, DK2, DK3, DK5]`
+Pretrain using domain augmentation, available aug arguments are `[DK1, DK2, DK3, DK5]`. Note that aug1 and aug2 can be different.
 
 ```
 python main_cl.py --dataset bace --method local --aug1 DK1 --aug2 DK1 --output_model_file pretrain_ --epochs 100 --runseed 0 --lamb 0.0
