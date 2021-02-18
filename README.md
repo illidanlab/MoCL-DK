@@ -10,10 +10,10 @@ The code are tested on python 3.7 and following are the dependencies:
 ```
 pytorch = 1.6.0
 cuda = 10.2
-torch-geometric
-rdkit
-tqdm
-tensorboardx
+torch-geometric (need to specify torch and cuda version during installation)
+rdkit (most recent)
+tqdm (most recent)
+tensorboardx (most recent)
 ```
 
 ## Pretrain using domain augmentation and global structure
