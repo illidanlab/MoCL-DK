@@ -10,10 +10,10 @@ The code are tested on python 3.7 and following are the dependencies:
 ```
 pytorch = 1.6.0
 cuda = 10.2
-torch-geometric (need to specify torch and cuda version during installation)
-rdkit (most recent)
-tqdm (most recent)
-tensorboardx (most recent)
+torch-geometric = 1.6.3 (need to specify torch and cuda version during installation)
+rdkit = 2020.09.1.0
+tqdm = 4.57.0
+tensorboardx = 2.1
 ```
 
 ## Key files
