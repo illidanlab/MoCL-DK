@@ -112,113 +112,6 @@ def train_global(model, optimizer, dataset, device, batch_size,
     return total_loss / len(loader1.dataset), 0
 
 
-
-from loader import mol_to_graph_data_obj_simple
-from torch_geometric.data import Batch
-import random
-from rdkit import Chem
-from rdkit.Chem import AllChem
-def generate_aug(data_index, smiles_list, rule_indicator, rules):
-    data_list = []
-    for row_idx in data_index:
-        #print(row_idx)
-        s = smiles_list[row_idx]
-        mol_obj = Chem.MolFromSmiles(s)
-        non_zero_idx = np.where(rule_indicator[row_idx, :]!=0)[0]
-        #print('non_zero_idx len:', len(non_zero_idx))
-        if len(non_zero_idx)==0:
-            mol = mol_obj
-        else:
-            # random pick one rule
-            col_idx = random.choice(non_zero_idx)
-            # pick one aug
-            #print('row idx {:d} col_idx {:}'.format(row_idx, col_idx))
-            #print('# rules ', rule_indicator[row_idx, col_idx])
-            aug_idx = random.choice(range(rule_indicator[row_idx, col_idx]))
-            #print('aug_idx: ', aug_idx)
-
-            rule = rules[col_idx]
-            rxn = AllChem.ReactionFromSmarts(rule['smarts'])
-            products = rxn.RunReactants((mol_obj,))
-            #print('products', products)
-            #print('products len', len(products))
-            mol = products[aug_idx][0]
-            #Chem.SanitizeMol(mol)
-        data = mol_to_graph_data_obj_simple(mol)
-        data_list.append(data)
-    #print(data_list)
-    batch = Batch.from_data_list(data_list)
-    #print(batch)
-    return batch
-
-
-def train_intra(model, optimizer, dataset, device, batch_size, aug1, aug_ratio1, aug2, aug_ratio2, 
-    smiles_list, rule_indicator, rules):
-
-    dataset.aug = "none"
-    dataset = dataset.shuffle()
-    loader = DataLoader(dataset, batch_size, shuffle=False)
-
-    model.train()
-
-    total_loss = 0
-    correct = 0
-    for data in loader:
-        #print(data)
-        optimizer.zero_grad()
-        data_index = data.id
-        data1 = generate_aug(data_index, smiles_list, rule_indicator, rules)
-        data2 = generate_aug(data_index, smiles_list, rule_indicator, rules)
-
-        data1 = data1.to(device)
-        data2 = data2.to(device)
-        out1 = model.forward(data1)
-        out2 = model.forward(data2)
-        loss = model.loss_cl(out1, out2)
-
-        loss.backward()
-        total_loss += loss.item() * num_graphs(data1)
-        optimizer.step()
-    return total_loss / len(loader.dataset), 0
-
-
-def train_full(model, optimizer, dataset, device, batch_size, aug1, aug_ratio1, aug2, aug_ratio2, 
-    smiles_list, rule_indicator, rules, sim_global, lamb):
-
-    dataset.aug = "none"
-    dataset = dataset.shuffle()
-    loader = DataLoader(dataset, batch_size, shuffle=False)
-
-    model.train()
-
-    total_loss = 0
-    correct = 0
-    for data in loader:
-        #print(data)
-        optimizer.zero_grad()
-        data_index = data.id
-        data1 = generate_aug(data_index, smiles_list, rule_indicator, rules)
-        data2 = generate_aug(data_index, smiles_list, rule_indicator, rules)
-
-        data1 = data1.to(device)
-        data2 = data2.to(device)
-        out1 = model.forward(data1)
-        out2 = model.forward(data2)
-        loss = model.loss_cl(out1, out2)
-
-        data = data.to(device)
-        out = model.forward(data)
-        loss2 = model.loss_cl_inter(out, out, data.id, sim_global)
-        #print('loss1 {:.4f} loss2 {:.4f}'.format(loss, loss2))
-        loss += lamb * loss2
-
-        loss.backward()
-        total_loss += loss.item() * num_graphs(data1)
-        optimizer.step()
-    return total_loss / len(loader.dataset), 0
-
-
-
 def main():
     # Training settings
     parser = argparse.ArgumentParser(description='PyTorch implementation of pre-training of graph neural networks')
@@ -300,32 +193,8 @@ def main():
 
     #set up dataset
     dataset = MoleculeDataset("dataset/" + args.dataset, dataset=args.dataset)
-    # if args.dataset in ['bace']:
-    #     smiles_list = dataset.smiles[0].tolist()    # smiles list should be smiles before processing, not the dataset smiels.
-    #     assert len(dataset) == len(smiles_list)
-    # elif args.dataset in ['bbbp', 'clintox', 'sider']:
-    #     if args.dataset == 'bbbp':
-    #         raw_file = pd.read_csv("dataset/" + args.dataset + '/raw/' + args.dataset.upper() +'.csv', sep=',')
-    #     else: 
-    #         raw_file = pd.read_csv("dataset/" + args.dataset + '/raw/' + args.dataset +'.csv', sep=',')
-    #     smiles_list = raw_file['smiles'].tolist()
-    # print('dataset smiles {:d} raw smiles {:d}'.format(len(dataset), len(smiles_list)))
     print(dataset)
     print(dataset.data)
-    
-
-    #print(smiles_list)
-    # sim_mat = np.zeros([len(dataset), len(dataset)])
-    # sim_mat = torch.from_numpy(sim_mat).to(device)
-    # smiles = dataset.smiles.iloc[:, 0].tolist()
-    # A = sim_mat(smiles)
-    # D = np.diag(A.sum(axis=1))
-    # L = D-A
-    # vals, vecs = np.linalg.eig(L)
-    # vecs = vecs[:,np.argsort(vals)]
-    # vals = vals[np.argsort(vals)]
-    # print(vals)
-    # print(np.min(vals), np.median(vals), np.max(vals))
 
     if args.method == 'local':
         save_dir = 'results/' + args.dataset + '/pretrain_local/'
