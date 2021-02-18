@@ -71,5 +71,7 @@ python main_finetune.py --dataset bace --dataset_load bace --pretrain_method glo
 
 ```
 
+# Acknowledgement
+
 The backbone of the code is inherited from [Strategies for Pre-training Graph Neural Networks](https://github.com/snap-stanford/pretrain-gnns).
 
