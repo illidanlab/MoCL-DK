@@ -2,7 +2,7 @@
 ## Abstract
 In this paper, we study graph contrastive learning in the context of biomedical domain, where molecular graphs are present. We propose a novel framework called MoCL, which utilizes domain knowledge at both local-and global-level to assist representation learning. The local-level domain knowledge guides the augmentation process such that variation is introduced without changing graph semantics. The global-level knowledge encodes the similarity information between graphsin the entire dataset and helps to learn representations with richer semantics. The entire model is learned through a double contrastobjective. We evaluate MoCL on various molecular datasets under both linear and semi-supervised settings and results show that MoCL achieves state-of-the-art performance.
 
-The current version of the paper can be found here (TBD).
+The current version of the paper is under review.
 
 ## Installation
 The code are tested on python 3.7 and following are the dependencies:
