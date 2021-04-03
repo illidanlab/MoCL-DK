@@ -1,5 +1,8 @@
 # MoCL: Contrastive Learning on Molecular Graphs with Multi-level Domain Knowledge
-## Abstract
+
+This is the official code repository of MoCL.  
+
+## Paper Abstract
 In this paper, we study graph contrastive learning in the context of biomedical domain, where molecular graphs are present. We propose a novel framework called MoCL, which utilizes domain knowledge at both local-and global-level to assist representation learning. The local-level domain knowledge guides the augmentation process such that variation is introduced without changing graph semantics. The global-level knowledge encodes the similarity information between graphsin the entire dataset and helps to learn representations with richer semantics. The entire model is learned through a double contrastobjective. We evaluate MoCL on various molecular datasets under both linear and semi-supervised settings and results show that MoCL achieves state-of-the-art performance.
 
 The current version of the paper is under review.
@@ -17,7 +20,7 @@ tensorboardx = 2.1
 ```
 
 ## Key files
-isostere_transformations_new.json: proposed augmentation rules derived from domain knowledge (written in SMARTS format). 
+`isostere_transformations_new.json`: proposed augmentation rules derived from domain knowledge (written in SMARTS format). 
 
 > SMARTS is a language that allows you to specify substructures using rules that are straightforward extensions of SMILES. For example, to search a database for phenol-containing structures, one would use the SMARTS string [OH]c1ccccc1, which should be familiar to those acquainted with SMILES.
 
@@ -83,7 +86,7 @@ We also provide pretrained models for bace in `/results/bace/pretrained_models/`
 
 # Acknowledgement
 
-This research is funded by NSF IIS-1749940 (JZ), ONR N00014-17-1-2265 (JZ), NIH 1R01GM134307 (JZ, BC), NIH K01ES028047 (BC).
+This research is funded by NSF IIS-1749940 (JZ), ONR N00014-20-1-2382 (JZ), NIH 1R01GM134307 (JZ, BC), NIH K01ES028047 (BC).
 
 The backbone of the code is inherited from [Strategies for Pre-training Graph Neural Networks](https://github.com/snap-stanford/pretrain-gnns).
 
