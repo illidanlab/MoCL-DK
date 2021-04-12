@@ -1,1 +1,1912 @@
-[{"name": "CA_to_CAI1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nn[nH]n1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1NC(=O)NC(=O)1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI3-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1ncon1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI3-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1oncn1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI4", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]c(=S)on1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI5-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1ncsn1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI5-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1sncn1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI6-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)onc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI6-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)on1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI7", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)c(=O)[nH]c(=O)1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI10", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(S)[nH]nn1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI11", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(F)n[nH]n1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI12", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](=O)[NH][OH]", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI13", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)NC(=O)C1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI14", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(=O)ccc(=O)c(O)1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI15", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)OCOC(O)=1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI16", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)[NH]C", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI17", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](=O)[NH]C#N", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI18-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)noc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI18-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)no1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI19-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)nsc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI19-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)ns1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI20-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)n[nH]c1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI20-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)n[nH]1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI21", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)NC(=O)C=1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI22", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)[NH]C(=O)O1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI23", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)[NH]C(=O)S1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI24-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)cccc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI24-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)ccc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI24-3", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1ccc(O)cc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI25-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)c(Cl)ccc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI25-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)c(Cl)cc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI25-3", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1ccc(O)c(Cl)c1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI25-4", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cccc(O)c(Cl)1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI26", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nnc[nH]1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI27", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]c(=O)on1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI28", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]s(=O)on1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI29", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1=C(O)C(=O)C(=O)1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI30-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)nn(C)c1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI30-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)nn(C)1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI31", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]s(=O)(=O)on1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI32", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1n[nH]s(=O)(=O)o1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI33", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)no1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI34", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)ns1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI35", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1oc(O)nn1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI36", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1oc(S)nn1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI37", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1sc(O)nn1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI38-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)n[nH]1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI38-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][n:1]1nc(O)nc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI39-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1oc(O)nc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI39-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)oc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI40-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1sc(O)nc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI40-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)sc1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI41-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1[NH]C(=O)[NH]C=1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI41-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][N:1]1C(=O)[NH]C=C1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI42-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]c(=O)[nH]c(=O)c1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI42-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c[nH]c(=O)[nH]c(=O)1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI43", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)N", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CA44-1", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1=CC(=O)O[NH]1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CA44-2", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)O[NH]C=1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI45", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](F)(F)C(=O)[NH][OH]", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI46", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)NCCF", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI47", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)NCC(F)F", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI48", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)NCC(F)(F)F", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI49", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1(O)COC1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI50", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](O)C(F)(F)F", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI51", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](O)(C(F)(F)F)C(F)(F)F", "tags": ["Acid Isostere", "Isostere"]}, {"name": "CA_to_CAI52", "smarts": "[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(O)=CC(=O)C1", "tags": ["Acid Isostere", "Isostere"]}, {"name": "Ketone_to_KI1", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1(COC1)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI2", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1(CC(F)(F)C1)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI3", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]S(=O)(=[N;H1])[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI4", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(F)(F)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI5", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(F)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI6", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(=C(F)F)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI7", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(=C(C#N)C#N)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI8", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(=C(C#N)C#N)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI9", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(=CC#N)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI10", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(C(F)(F)F)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI11", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1(CCC1)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI12", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1(CC1)[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI13", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1OCC1[#6:2]", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI14", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]-C1OCC(-[#6:2])C1", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Ketone_to_KI15", "smarts": "[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]-c1occ(-[#6:2])c1", "tags": ["Isostere", "Ketone Isostere"]}, {"name": "Phenyl_to_PI1-1", "smarts": "[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C1CCC1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI1-14", "smarts": "[*;!#1:1]-c1[c;H1][c;H1]c(-[*;!#1:2])[c;H1][c;H1]1>>[*:1]C1CC([*:2])C1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI2-1", "smarts": "[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C12C3C4C1C1C2C3C41", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI2-14", "smarts": "[*;!#1:1]-c1[c;H1][c;H1]c(-[*;!#1:2])[c;H1][c;H1]1>>[*:1]C12C3C4C1C1C2C3C([*:2])41", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI3-1", "smarts": "[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C1CCCCC1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI3-14", "smarts": "[*;!#1:1]-c1[c;H1][c;H1]c(-[*;!#1:2])[c;H1][c;H1]1>>[*:1]C1CCC([*:2])CC1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI4-1", "smarts": "[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C12CC(C2)C1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI4-14", "smarts": "[*;!#1:1]-c1[c;H1][c;H1]c(-[*;!#1:2])[c;H1][c;H1]1>>[*:1]C12CC([*:2])(C2)C1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI5-1", "smarts": "[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C12CCC(CC2)CC1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI5-14", "smarts": "[*;!#1:1]c1[c;H1][c;H1]c([*;!#1:2])[c;H1][c;H1]1>>[*:1]C12CCC([*:2])(CC2)CC1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI6-1", "smarts": "[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C1CC2CC2C1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI6-14", "smarts": "[*;!#1:1]c1[c;H1][c;H1]c([*;!#1:2])[c;H1][c;H1]1>>[*:1]C1CC2C([*:2])C2C1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI7-1", "smarts": "[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1][c:2]1ncccc1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI7-12", "smarts": "[*;!#1:1]-[c:3]1[c;H1][c:4][c:5][c:6][c:7](-[*;!#1:2])1>>[*:1][c:3]1n[c:4][c:5][c:6][c:7]([*:2])1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI7-13", "smarts": "[*;!#1:1]-[c:3]1[c;H1][c:4](-[*;!#1:2])[c:5][c:6][c:7]1>>[*:1][c:3]1n[c:4]([*:2])[c:5][c:6][c:7]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI7-14", "smarts": "[*;!#1:1]-[c:3]1[c;H1][c:4][c:5](-[*;!#1:2])[c:6][c:7]1>>[*:1][c:3]1n[c:4][c:5]([*:2])[c:6][c:7]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_P8-1", "smarts": "[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1][c:2]1ncccn1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_P8-13", "smarts": "[*;!#1:1][c:3]1[c;H1][c:4]([*;!#1:2])[c:5][c:6][c;H1]1>>[*:1][c:3]1n[c:4]([*:2])[c:5][c:6]n1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_P8-14", "smarts": "[*;!#1:1][c:3]1[c;H1][c:4][c:5]([*;!#1:2])[c:6][c;H1]1>>[*:1][c:3]1n[c:4][c:5]([*:2])[c:6]n1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI9-1", "smarts": "[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]c1nnccc1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI9-12", "smarts": "[*;!#1:1]-[c:3]1[c;H1][c;H1][c:4][c:5][c:6](-[*;!#1:2])1>>[*:1][c:3]1nn[c:4][c:5][c:6]([*:2])1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI9-13", "smarts": "[*;!#1:1]-[c:3]1[c;H1][c;H1][c:4][c:5](-[*;!#1:2])[c:6]1>>[*:1][c:3]1nn[c:4][c:5]([*:2])[c:6]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI9-14", "smarts": "[*;!#1:1][c:3]1[c;H1][c;H1][c:4]([*;!#1:2])[c:5][c:6]1>>[*:1][c:3]1nn[c:4]([*:2])[c:5][c:6]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI10-1", "smarts": "[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]-[c:2]1nccnc1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI10-12", "smarts": "[*;!#1:1]-[c:3]1[c;H1][c:4][c:5][c;H1][c:6](-[*;!#1:2])1>>[*:1][c:3]1n[c:4][c:5]n[c:6]([*:2])1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI10-13", "smarts": "[*;!#1:1]-[c:3]1[c;H1][c:4](-[*;!#1:2])[c:5][c;H1][c:6]1>>[*:1][c:3]1n[c:4]([*:2])[c:5]n[c:6]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI10-14", "smarts": "[*;!#1:1]-[c:3]1[c;H1][c:4][c:5](-[*;!#1:2])[c;H1][c:6]1>>[*:1][c:3]1n[c:4][c:5]([*:2])n[c:6]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI11-1", "smarts": "[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1][c:2]1sccc1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI11-12", "smarts": "[*;!#1:1][c:3]1[c:4]([*;!#1:2])[c:5][c:6][c;H1][c;H1]1>>[*:1][c:3]1s[c:6][c:5][c:4]([*:2])1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI11-13", "smarts": "[*;!#1:1][c:3]1[c:4][c:5]([*;!#1:2])[c:6][c;H1][c;H1]1>>[*:1][c:3]1s[c:6][c:5]([*:2])[c:4]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI11-14", "smarts": "[*;!#1:1][c:3]1[c:4][c:5][c:6]([*;!#1:2])[c;H1][c;H1]1>>[*:1][c:3]1s[c:6]([*:2])[c:5][c:4]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI12-1", "smarts": "[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1][c:2]1scnc1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI12-12", "smarts": "[*;!#1:1]-[c:3]1[c:4](-[*;!#1:2])[c;H1][c:6][c;H1][c;H1]1>>[*:1][c:3]1s[c:6]n[c:4]([*:2])1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI12-14", "smarts": "[*;!#1:1]-[c:3]1[c:4][c;H1][c:6](-[*;!#1:2])[c;H1][c;H1]1>>[*:1][c:3]1s[c:6]([*:2])n[c:4]1", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI13-1", "smarts": "[c,C;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C#C", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "Phenyl_to_PI13-14", "smarts": "[c,C;!#1:1]-c1[c;H1][c;H1]c(-[c,C;!#1:2])[c;H1][c;H1]1>>[*:1]C#C[*:2]", "tags": ["Isostere", "Phenyl Isostere"]}, {"name": "nsAmide_to_nsAI1", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(N)1COC1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI2", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]S(=O)(=O)N", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI3", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(C(F)(F)F)N", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI4", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]C1(CC1)N", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI5", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nnco1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI6", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1[nH]nnc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI7", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nnc[nH]1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI8", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1[nH]nnn1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI9", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1ncno1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI10", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1cnco1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI11", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1cocn1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI12", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(C(F)F)N", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI13", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(F)=C", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI14", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nocn1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI15", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1occn1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI16", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(=N)N", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI17", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(=NC)N", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI18", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nnccc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI19", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1cnncc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI20", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nccnc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI21", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1ncccn1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI22", "smarts": "[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1cncnc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI23", "smarts": "[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])oc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI24", "smarts": "[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])[nH]c1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI25", "smarts": "[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])n(C)c1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI26", "smarts": "[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])n[nH]1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI27", "smarts": "[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])nn(C)1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI28", "smarts": "[#6;H2,H3:1][#6;H2:2]C(=O)[N;H2]>>[c:1]1[n:2]c([N;H2])[nH]c1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI29", "smarts": "[#6;H2,H3:1][#6;H2:2]C(=O)[N;H2]>>[c:1]1[n:2]c([N;H2])ncc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI30", "smarts": "[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])ncn1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI31", "smarts": "[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])nnc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "nsAmide_to_nsAI32", "smarts": "[#6;H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[n:1]1[c:2]c([N;H2])ncc1", "tags": ["Amide Isostere", "Isostere", "Unsubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI1", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(N[*:2])1COC1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI2", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]S(=O)(=O)N[*:2]", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI3", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(C(F)(F)F)N[*:2]", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI4", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C1(CC1)N[*:2]", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI5", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnc([*:2])o1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI6", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnn([*:2])c1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI7", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnc([*:2])[nH]1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI8", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnn([*:2])n1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI9", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nc([*:2])no1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI10", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1cnc([*:2])o1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI11", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1coc([*:2])n1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI12", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(C(F)F)N[*:2]", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI13", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(F)=C[*:2]", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI14", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1noc([*:2])n1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI15", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1occ([*:2])n1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI16", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1ncc([*:2])o1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI17", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(=N)N[*:2]", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI18", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(=NC)N[*:2]", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI19", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnc([*:2])cc1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI20", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nncc([*:2])c1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI21", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1ncc([*:2])nc1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI22", "smarts": "[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1c([*:2])nccn1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI23", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[#6:3])oc1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI24", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])[nH]c1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI25", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])n(C)c1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI26", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])n[nH]1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI27", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])nn(C)1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI28", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[n:2]c(N[*:3])nc1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI29", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[n:2]c(N[*:3])ncc1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI30", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])ncn1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI31", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])nnc1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "msAmide_to_msAI32", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[n:1]1[c:2]c(N[*:3])ncc1", "tags": ["Amide Isostere", "Isostere", "Monosubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI1", "smarts": "[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(N([*:2])[*:3])1COC1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI2", "smarts": "[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]S(=O)(=O)N([*:2])[*:3]", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI3", "smarts": "[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(C(F)(F)F)N([*:2])[*:3]", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI4", "smarts": "[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C1(CC1)N([*:2])[*:3]", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI5", "smarts": "[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(C(F)F)N([*:2])[*:3]", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI6", "smarts": "[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(F)=C([*:2])[*:3]", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI7", "smarts": "[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(=N)N([*:2])[*:3]", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI8", "smarts": "[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(=NC)N([*:2])[*:3]", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI9", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])oc1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI10", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])[nH]c1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI11", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])n(C)c1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI12", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])n[nH]1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI13", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])nn(C)1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI14", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[n:2][c:3]([N:4]([*:5])[*:6])nc1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI15", "smarts": "[#6;H2,H3:1][#6;H2:2][#6:3](=O)[$(N);H0;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[n:2][c:3]([N:4]([*:5])[*:6])ncc1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI16", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])ncn1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI17", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R:4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])nnc1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "dsAmide_to_dsAI18", "smarts": "[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[n:1]1[c:2][c:3]([N:4]([*:5])[*:6])ncc1", "tags": ["Amide Isostere", "Isostere", "Disubstituted Amide Isostere"]}, {"name": "Ester_to_EI1", "smarts": "[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][C:3]1(COC1)O[*:4]", "tags": ["Ester Isostere", "Isostere"]}, {"name": "Ester_to_EI2", "smarts": "[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][c:3]1c(O[*:4])noc1", "tags": ["Ester Isostere", "Isostere"]}, {"name": "Ester_to_EI3", "smarts": "[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][c:3]1c(O[*:4])onc1", "tags": ["Ester Isostere", "Isostere"]}, {"name": "Ester_to_EI4", "smarts": "[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][c:3]1c(O[*:4])nco1", "tags": ["Ester Isostere", "Isostere"]}, {"name": "Ester_to_EI5", "smarts": "[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][c:3]1c(O[*:4])ocn1", "tags": ["Ester Isostere", "Isostere"]}, {"name": "Ester_to_EI6", "smarts": "[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][C:3](C#N)=NO[*:4]", "tags": ["Ester Isostere", "Isostere"]}, {"name": "Ester_to_EI7", "smarts": "[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][C:3](C(F)(F)F)O[*:4]", "tags": ["Ester Isostere", "Isostere"]}, {"name": "Tbutyl_to_TBI1", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1COC1", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI2", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(COC1)F", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI3", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(COC1)C", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI4", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(COC1)C(F)(F)F", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI5", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1CC1", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI6", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(CC1)F", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI7", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(CC1)C", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI8", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(CC1)C(F)(F)F", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI9", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1][#14](C)(C)C", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Tbutyl_to_TBI10", "smarts": "[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]S(F)(F)(F)(F)F", "tags": ["Isostere", "T-butyl Isostere"]}, {"name": "Drop_CH2", "smarts": "[*:1][CH2][*:2]>>[*:1][*:2]", "tags": ["Drop C"]}, {"name": "Drop_CH2CH2", "smarts": "[*:1][CH2][CH2][*:2]>>[*:1][*:2]", "tags": ["Drop C"]}, {"name": "Drop_CH2CH2CH2", "smarts": "[*:1][CH2][CH2][CH2][*:2]>>[*:1][*:2]", "tags": ["Drop C"]}, {"name": "Drop_CH3", "smarts": "[*:1][CH3]>>[*:1]", "tags": ["Drop C"]}, {"name": "Drop_CH2CH3", "smarts": "[*:1][CH2][CH3]>>[*:1]", "tags": ["Drop C"]}, {"name": "Drop_CH2CH2CH3", "smarts": "[*:1][CH2][CH2][CH3]>>[*:1]", "tags": ["Drop C"]}, {"name": "Add_CH2", "smarts": "[*:1]-[*:2]>>[*:1]C[*:2]", "tags": ["Add C"]}, {"name": "Add_CH2CH2", "smarts": "[*:1]-[*:2]>>[*:1]CC[*:2]", "tags": ["Add C"]}, {"name": "Add_CH2CH2CH2", "smarts": "[*:1]-[*:2]>>[*:1]CCC[*:2]", "tags": ["Add C"]}, {"name": "Add_CH3", "smarts": "[*h:1]>>[*:1]C", "tags": ["Add C"]}, {"name": "Add_CH2CH3", "smarts": "[*h:1]>>[*:1]CC", "tags": ["Add C"]}, {"name": "Add_CH2CH2CH3", "smarts": "[*h:1]>>[*:1]CCC", "tags": ["Add C"]}]
+[
+   {
+      "name":"CA_to_CAI1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nn[nH]n1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1NC(=O)NC(=O)1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI3-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1ncon1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI3-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1oncn1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI4",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]c(=S)on1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI5-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1ncsn1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI5-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1sncn1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI6-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)onc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI6-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)on1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI7",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)c(=O)[nH]c(=O)1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI10",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(S)[nH]nn1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI11",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(F)n[nH]n1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI12",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](=O)[NH][OH]",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI13",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)NC(=O)C1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI14",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(=O)ccc(=O)c(O)1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI15",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)OCOC(O)=1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI16",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)[NH]C",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI17",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](=O)[NH]C#N",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI18-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)noc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI18-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)no1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI19-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)nsc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI19-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)ns1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI20-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)n[nH]c1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI20-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)n[nH]1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI21",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)NC(=O)C=1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI22",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)[NH]C(=O)O1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI23",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)[NH]C(=O)S1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI24-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)cccc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI24-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)ccc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI24-3",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1ccc(O)cc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI25-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)c(Cl)ccc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI25-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)c(Cl)cc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI25-3",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1ccc(O)c(Cl)c1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI25-4",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cccc(O)c(Cl)1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI26",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nnc[nH]1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI27",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]c(=O)on1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI28",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]s(=O)on1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI29",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1=C(O)C(=O)C(=O)1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI30-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c(O)nn(C)c1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI30-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1cc(O)nn(C)1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI31",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]s(=O)(=O)on1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI32",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1n[nH]s(=O)(=O)o1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI33",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)no1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI34",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)ns1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI35",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1oc(O)nn1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI36",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1oc(S)nn1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI37",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1sc(O)nn1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI38-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)n[nH]1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI38-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][n:1]1nc(O)nc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI39-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1oc(O)nc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI39-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)oc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI40-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1sc(O)nc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI40-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1nc(O)sc1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI41-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1[NH]C(=O)[NH]C=1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI41-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][N:1]1C(=O)[NH]C=C1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI42-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1[nH]c(=O)[nH]c(=O)c1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI42-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][c:1]1c[nH]c(=O)[nH]c(=O)1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI43",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)N",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CA44-1",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1=CC(=O)O[NH]1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CA44-2",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(=O)O[NH]C=1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI45",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](F)(F)C(=O)[NH][OH]",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI46",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)NCCF",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI47",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)NCC(F)F",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI48",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][S:1](=O)(=O)NCC(F)(F)F",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI49",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1(O)COC1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI50",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](O)C(F)(F)F",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI51",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1](O)(C(F)(F)F)C(F)(F)F",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"CA_to_CAI52",
+      "smarts":"[#6:2][#6:1](=O)[O;-,H1]>>[*:2][C:1]1C(O)=CC(=O)C1",
+      "tags":[
+         "Acid Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI1",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1(COC1)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI2",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1(CC(F)(F)C1)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI3",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]S(=O)(=[N;H1])[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI4",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(F)(F)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI5",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(F)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI6",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(=C(F)F)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI7",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(=C(C#N)C#N)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI8",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(=C(C#N)C#N)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI9",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(=CC#N)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI10",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C(C(F)(F)F)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI11",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1(CCC1)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI12",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1(CC1)[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI13",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]C1OCC1[#6:2]",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI14",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]-C1OCC(-[#6:2])C1",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Ketone_to_KI15",
+      "smarts":"[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):1][C;!R](=O)[$([#6]);!$([#6]=[C,O,N,S]);!$([#6]-[O,N,S]):2]>>[#6:1]-c1occ(-[#6:2])c1",
+      "tags":[
+         "Isostere",
+         "Ketone Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI1-1",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C1CCC1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI1-14",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1]c(-[*;!#1:2])[c;H1][c;H1]1>>[*:1]C1CC([*:2])C1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI2-1",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C12C3C4C1C1C2C3C41",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI2-14",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1]c(-[*;!#1:2])[c;H1][c;H1]1>>[*:1]C12C3C4C1C1C2C3C([*:2])41",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI3-1",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C1CCCCC1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI3-14",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1]c(-[*;!#1:2])[c;H1][c;H1]1>>[*:1]C1CCC([*:2])CC1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI4-1",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C12CC(C2)C1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI4-14",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1]c(-[*;!#1:2])[c;H1][c;H1]1>>[*:1]C12CC([*:2])(C2)C1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI5-1",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C12CCC(CC2)CC1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI5-14",
+      "smarts":"[*;!#1:1]c1[c;H1][c;H1]c([*;!#1:2])[c;H1][c;H1]1>>[*:1]C12CCC([*:2])(CC2)CC1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI6-1",
+      "smarts":"[*;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C1CC2CC2C1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI6-14",
+      "smarts":"[*;!#1:1]c1[c;H1][c;H1]c([*;!#1:2])[c;H1][c;H1]1>>[*:1]C1CC2C([*:2])C2C1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI7-1",
+      "smarts":"[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1][c:2]1ncccc1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI7-12",
+      "smarts":"[*;!#1:1]-[c:3]1[c;H1][c:4][c:5][c:6][c:7](-[*;!#1:2])1>>[*:1][c:3]1n[c:4][c:5][c:6][c:7]([*:2])1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI7-13",
+      "smarts":"[*;!#1:1]-[c:3]1[c;H1][c:4](-[*;!#1:2])[c:5][c:6][c:7]1>>[*:1][c:3]1n[c:4]([*:2])[c:5][c:6][c:7]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI7-14",
+      "smarts":"[*;!#1:1]-[c:3]1[c;H1][c:4][c:5](-[*;!#1:2])[c:6][c:7]1>>[*:1][c:3]1n[c:4][c:5]([*:2])[c:6][c:7]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_P8-1",
+      "smarts":"[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1][c:2]1ncccn1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_P8-13",
+      "smarts":"[*;!#1:1][c:3]1[c;H1][c:4]([*;!#1:2])[c:5][c:6][c;H1]1>>[*:1][c:3]1n[c:4]([*:2])[c:5][c:6]n1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_P8-14",
+      "smarts":"[*;!#1:1][c:3]1[c;H1][c:4][c:5]([*;!#1:2])[c:6][c;H1]1>>[*:1][c:3]1n[c:4][c:5]([*:2])[c:6]n1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI9-1",
+      "smarts":"[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]c1nnccc1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI9-12",
+      "smarts":"[*;!#1:1]-[c:3]1[c;H1][c;H1][c:4][c:5][c:6](-[*;!#1:2])1>>[*:1][c:3]1nn[c:4][c:5][c:6]([*:2])1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI9-13",
+      "smarts":"[*;!#1:1]-[c:3]1[c;H1][c;H1][c:4][c:5](-[*;!#1:2])[c:6]1>>[*:1][c:3]1nn[c:4][c:5]([*:2])[c:6]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI9-14",
+      "smarts":"[*;!#1:1][c:3]1[c;H1][c;H1][c:4]([*;!#1:2])[c:5][c:6]1>>[*:1][c:3]1nn[c:4]([*:2])[c:5][c:6]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI10-1",
+      "smarts":"[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]-[c:2]1nccnc1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI10-12",
+      "smarts":"[*;!#1:1]-[c:3]1[c;H1][c:4][c:5][c;H1][c:6](-[*;!#1:2])1>>[*:1][c:3]1n[c:4][c:5]n[c:6]([*:2])1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI10-13",
+      "smarts":"[*;!#1:1]-[c:3]1[c;H1][c:4](-[*;!#1:2])[c:5][c;H1][c:6]1>>[*:1][c:3]1n[c:4]([*:2])[c:5]n[c:6]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI10-14",
+      "smarts":"[*;!#1:1]-[c:3]1[c;H1][c:4][c:5](-[*;!#1:2])[c;H1][c:6]1>>[*:1][c:3]1n[c:4][c:5]([*:2])n[c:6]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI11-1",
+      "smarts":"[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1][c:2]1sccc1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI11-12",
+      "smarts":"[*;!#1:1][c:3]1[c:4]([*;!#1:2])[c:5][c:6][c;H1][c;H1]1>>[*:1][c:3]1s[c:6][c:5][c:4]([*:2])1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI11-13",
+      "smarts":"[*;!#1:1][c:3]1[c:4][c:5]([*;!#1:2])[c:6][c;H1][c;H1]1>>[*:1][c:3]1s[c:6][c:5]([*:2])[c:4]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI11-14",
+      "smarts":"[*;!#1:1][c:3]1[c:4][c:5][c:6]([*;!#1:2])[c;H1][c;H1]1>>[*:1][c:3]1s[c:6]([*:2])[c:5][c:4]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI12-1",
+      "smarts":"[*;!#1:1]-[c:2]1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1][c:2]1scnc1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI12-12",
+      "smarts":"[*;!#1:1]-[c:3]1[c:4](-[*;!#1:2])[c;H1][c:6][c;H1][c;H1]1>>[*:1][c:3]1s[c:6]n[c:4]([*:2])1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI12-14",
+      "smarts":"[*;!#1:1]-[c:3]1[c:4][c;H1][c:6](-[*;!#1:2])[c;H1][c;H1]1>>[*:1][c:3]1s[c:6]([*:2])n[c:4]1",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI13-1",
+      "smarts":"[c,C;!#1:1]-c1[c;H1][c;H1][c;H1][c;H1][c;H1]1>>[*:1]C#C",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"Phenyl_to_PI13-14",
+      "smarts":"[c,C;!#1:1]-c1[c;H1][c;H1]c(-[c,C;!#1:2])[c;H1][c;H1]1>>[*:1]C#C[*:2]",
+      "tags":[
+         "Isostere",
+         "Phenyl Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI1",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(N)1COC1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI2",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]S(=O)(=O)N",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI3",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(C(F)(F)F)N",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI4",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]C1(CC1)N",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI5",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nnco1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI6",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1[nH]nnc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI7",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nnc[nH]1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI8",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1[nH]nnn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI9",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1ncno1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI10",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1cnco1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI11",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1cocn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI12",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(C(F)F)N",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI13",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(F)=C",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI14",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nocn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI15",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1occn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI16",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(=N)N",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI17",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]C(=NC)N",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI18",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nnccc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI19",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1cnncc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI20",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1nccnc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI21",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1ncccn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI22",
+      "smarts":"[c,C:1][C;!R](=O)[N;H2]>>[*:1]c1cncnc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI23",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])oc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI24",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])[nH]c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI25",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])n(C)c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI26",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])n[nH]1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI27",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])nn(C)1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI28",
+      "smarts":"[#6;H2,H3:1][#6;H2:2]C(=O)[N;H2]>>[c:1]1[n:2]c([N;H2])[nH]c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI29",
+      "smarts":"[#6;H2,H3:1][#6;H2:2]C(=O)[N;H2]>>[c:1]1[n:2]c([N;H2])ncc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI30",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])ncn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI31",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[c:1]1[c:2]c([N;H2])nnc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"nsAmide_to_nsAI32",
+      "smarts":"[#6;H3:1][#6;H1,H2:2]C(=O)[N;H2]>>[n:1]1[c:2]c([N;H2])ncc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Unsubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI1",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(N[*:2])1COC1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI2",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]S(=O)(=O)N[*:2]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI3",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(C(F)(F)F)N[*:2]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI4",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C1(CC1)N[*:2]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI5",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnc([*:2])o1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI6",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnn([*:2])c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI7",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnc([*:2])[nH]1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI8",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnn([*:2])n1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI9",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nc([*:2])no1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI10",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1cnc([*:2])o1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI11",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1coc([*:2])n1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI12",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(C(F)F)N[*:2]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI13",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(F)=C[*:2]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI14",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1noc([*:2])n1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI15",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1occ([*:2])n1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI16",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1ncc([*:2])o1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI17",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(=N)N[*:2]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI18",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]C(=NC)N[*:2]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI19",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nnc([*:2])cc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI20",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1nncc([*:2])c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI21",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1ncc([*:2])nc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI22",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H1;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])][c,C:2]>>[*:1]c1c([*:2])nccn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI23",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[#6:3])oc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI24",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])[nH]c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI25",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])n(C)c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI26",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])n[nH]1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI27",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])nn(C)1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI28",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[n:2]c(N[*:3])nc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI29",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[n:2]c(N[*:3])ncc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI30",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])ncn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI31",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[c:1]1[c:2]c(N[*:3])nnc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"msAmide_to_msAI32",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2]C(=O)[$(N);H1;!$(N([C,S]=[O,S])[C,S]=[O,S])][#6:3]>>[n:1]1[c:2]c(N[*:3])ncc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Monosubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI1",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(N([*:2])[*:3])1COC1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI2",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]S(=O)(=O)N([*:2])[*:3]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI3",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(C(F)(F)F)N([*:2])[*:3]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI4",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C1(CC1)N([*:2])[*:3]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI5",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(C(F)F)N([*:2])[*:3]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI6",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(F)=C([*:2])[*:3]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI7",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(=N)N([*:2])[*:3]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI8",
+      "smarts":"[c,C:1][C;!R](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S])]([c,C:2])[c,C:3]>>[*:1]C(=NC)N([*:2])[*:3]",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI9",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])oc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI10",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])[nH]c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI11",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])n(C)c1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI12",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])n[nH]1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI13",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])nn(C)1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI14",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[n:2][c:3]([N:4]([*:5])[*:6])nc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI15",
+      "smarts":"[#6;H2,H3:1][#6;H2:2][#6:3](=O)[$(N);H0;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[n:2][c:3]([N:4]([*:5])[*:6])ncc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI16",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])ncn1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI17",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R:4]([c,C:5])[c,C:6]>>[c:1]1[c:2][c:3]([N:4]([*:5])[*:6])nnc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"dsAmide_to_dsAI18",
+      "smarts":"[#6;H2,H3:1][#6;H1,H2;!$([#6]~[#7,#8,#16]):2][#6;!R:3](=O)[$(N);H0;!R;!$(N([C,S]=[O,S])[C,S]=[O,S]):4]([c,C:5])[c,C:6]>>[n:1]1[c:2][c:3]([N:4]([*:5])[*:6])ncc1",
+      "tags":[
+         "Amide Isostere",
+         "Isostere",
+         "Disubstituted Amide Isostere"
+      ]
+   },
+   {
+      "name":"Ester_to_EI1",
+      "smarts":"[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][C:3]1(COC1)O[*:4]",
+      "tags":[
+         "Ester Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"Ester_to_EI2",
+      "smarts":"[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][c:3]1c(O[*:4])noc1",
+      "tags":[
+         "Ester Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"Ester_to_EI3",
+      "smarts":"[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][c:3]1c(O[*:4])onc1",
+      "tags":[
+         "Ester Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"Ester_to_EI4",
+      "smarts":"[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][c:3]1c(O[*:4])nco1",
+      "tags":[
+         "Ester Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"Ester_to_EI5",
+      "smarts":"[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][c:3]1c(O[*:4])ocn1",
+      "tags":[
+         "Ester Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"Ester_to_EI6",
+      "smarts":"[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][C:3](C#N)=NO[*:4]",
+      "tags":[
+         "Ester Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"Ester_to_EI7",
+      "smarts":"[*:1][c,C:2][C:3](=O)[O;!H1,!-][c,C:4]>>[*:1][*:2][C:3](C(F)(F)F)O[*:4]",
+      "tags":[
+         "Ester Isostere",
+         "Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI1",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1COC1",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI2",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(COC1)F",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI3",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(COC1)C",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI4",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(COC1)C(F)(F)F",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI5",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1CC1",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI6",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(CC1)F",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI7",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(CC1)C",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI8",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]C1(CC1)C(F)(F)F",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI9",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1][#14](C)(C)C",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Tbutyl_to_TBI10",
+      "smarts":"[c,C:1]C([C;H3])([C;H3])[C;H3]>>[*:1]S(F)(F)(F)(F)F",
+      "tags":[
+         "Isostere",
+         "T-butyl Isostere"
+      ]
+   },
+   {
+      "name":"Drop_CH2",
+      "smarts":"[*:1][CH2][*:2]>>[*:1][*:2]",
+      "tags":[
+         "Drop C"
+      ]
+   },
+   {
+      "name":"Drop_CH2CH2",
+      "smarts":"[*:1][CH2][CH2][*:2]>>[*:1][*:2]",
+      "tags":[
+         "Drop C"
+      ]
+   },
+   {
+      "name":"Drop_CH2CH2CH2",
+      "smarts":"[*:1][CH2][CH2][CH2][*:2]>>[*:1][*:2]",
+      "tags":[
+         "Drop C"
+      ]
+   },
+   {
+      "name":"Drop_CH3",
+      "smarts":"[*:1][CH3]>>[*:1]",
+      "tags":[
+         "Drop C"
+      ]
+   },
+   {
+      "name":"Drop_CH2CH3",
+      "smarts":"[*:1][CH2][CH3]>>[*:1]",
+      "tags":[
+         "Drop C"
+      ]
+   },
+   {
+      "name":"Drop_CH2CH2CH3",
+      "smarts":"[*:1][CH2][CH2][CH3]>>[*:1]",
+      "tags":[
+         "Drop C"
+      ]
+   },
+   {
+      "name":"Add_CH2",
+      "smarts":"[*:1]-[*:2]>>[*:1]C[*:2]",
+      "tags":[
+         "Add C"
+      ]
+   },
+   {
+      "name":"Add_CH2CH2",
+      "smarts":"[*:1]-[*:2]>>[*:1]CC[*:2]",
+      "tags":[
+         "Add C"
+      ]
+   },
+   {
+      "name":"Add_CH2CH2CH2",
+      "smarts":"[*:1]-[*:2]>>[*:1]CCC[*:2]",
+      "tags":[
+         "Add C"
+      ]
+   },
+   {
+      "name":"Add_CH3",
+      "smarts":"[*h:1]>>[*:1]C",
+      "tags":[
+         "Add C"
+      ]
+   },
+   {
+      "name":"Add_CH2CH3",
+      "smarts":"[*h:1]>>[*:1]CC",
+      "tags":[
+         "Add C"
+      ]
+   },
+   {
+      "name":"Add_CH2CH2CH3",
+      "smarts":"[*h:1]>>[*:1]CCC",
+      "tags":[
+         "Add C"
+      ]
+   }
+]
