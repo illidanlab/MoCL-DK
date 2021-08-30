@@ -26,6 +26,13 @@ tensorboardx = 2.1
 
 More details can be found [here](https://www.daylight.com/dayhtml/doc/theory/theory.smarts.html). 
 
+## Prepare rule_indicator matrix and sim_matrix_nb_{neighbor_size} matrix
+rule_indicator_new.pkl contains a binary matrix M (n_mols x n_rules) derived from domain rules and will be used in domain augmentation. M[i, j] = 1 indicates i-th molecule has substructure matched for j-th rule and can be replaced by target substructure in the domain augmentation process.
+
+sim_matrix_nb_50.pkl contains a binary matrix M (n_mols x n_mols) that specify the neighbors of each molecule. M[i, j] = 1 indicates j-th molecule is a neighbor of i-th molecule given the neighbor size=50.
+
+The two files can be generated using pre_structure.py file.
+
 ## Pretrain using domain augmentation and global structure
 
 1. Pretrain using general augmentation, the available augmentations are `['drop_node', 'permute_edge', 'mask_edge', 'subgraph']`. Note that aug1 and aug2 can be different, e.g., `aug1=drop_node, aug2=permute_edge`.
