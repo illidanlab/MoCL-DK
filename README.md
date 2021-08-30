@@ -82,7 +82,17 @@ python main_finetune.py --dataset bace --dataset_load bace --pretrain_method glo
 ```
 
 # Saved pretrained models
-We also provide pretrained models for each dataset in `/results/<dataset>/` directory. It includes pretrained models from both local contrast and global contrast, which can be used to reproduce the results in the paper.
+We also provide pretrained models for each dataset in `/results/<dataset>/` directory. It includes pretrained models from both local contrast and global contrast, which can be used to reproduce the results in the paper. The following table shows the best hyperparameter and performance for the proposed method.
+
+| Dataset      | Augmentation | n_nb | lamb | Linear | Semi-supervised |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| bace		  | DK1         | 50 		  | 5.0 		| 0.845 	  | 0.706		|
+| bbbp 		  | DK3         | 50 		  | 10.0 		| 0.905 	  | 0.809		|
+| clintox 		  | DK1         | 50 		  | 5.0 		| 0.750 	  | 0.623		|
+| mutag 		  | DK3         | 10 		  | 1.0 		| 0.969 	  | 0.916		|
+| sider 		  | DK1         | 50 		  | 5.0 		| 0.628 	  | 0.565		|
+| tox21 		  | DK1         | 600 		  | 5.0 		| 0.768 	  | 0.686		|
+| toxcast 		  | DK1         | 600 		  | 5.0 		| 0.653 	  | 0.546		|
 
 # Acknowledgement
 
