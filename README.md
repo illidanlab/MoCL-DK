@@ -27,7 +27,7 @@ tensorboardx = 2.1
 More details can be found [here](https://www.daylight.com/dayhtml/doc/theory/theory.smarts.html). 
 
 ## Prepare rule_indicator matrix and sim_matrix_nb_{neighbor_size} matrix
-rule_indicator_new.pkl contains a binary matrix M (n_mols x n_rules) derived from domain rules and will be used in domain augmentation. M[i, j] = 1 indicates i-th molecule has substructure matched for j-th rule and can be replaced by target substructure in the domain augmentation process.
+rule_indicator_new.pkl contains a matrix M (n_mols x n_rules) derived from domain rules and will be used in domain augmentation. M[i, j] = k indicates i-th molecule has k substructures matched for j-th rule and can be replaced by target substructures in the domain augmentation process.
 
 sim_matrix_nb_50.pkl contains a binary matrix M (n_mols x n_mols) that specify the neighbors of each molecule. M[i, j] = 1 indicates j-th molecule is a neighbor of i-th molecule given the neighbor size=50.
 
