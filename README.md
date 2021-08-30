@@ -31,7 +31,7 @@ rule_indicator_new.pkl contains a matrix M (n_mols x n_rules) derived from domai
 
 sim_matrix_nb_50.pkl contains a binary matrix M (n_mols x n_mols) that specify the neighbors of each molecule. M[i, j] = 1 indicates j-th molecule is a neighbor of i-th molecule given the neighbor size=50.
 
-The two files can be generated using pre_structure.py file.
+The two files can be generated using `pre_structure.py` file.
 
 ## Pretrain using domain augmentation and global structure
 
