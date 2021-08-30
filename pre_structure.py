@@ -173,9 +173,9 @@ def main():
     else:
         n_nb_list = [10, 50, 100, 150, 300]
 
-    with open(save_dir + 'sim_matrix.pkl', 'rb') as f:
-        df = pkl.load(f)
-        sim_matrix = df[0]
+    # with open(save_dir + 'sim_matrix.pkl', 'rb') as f:
+    #     df = pkl.load(f)
+    #     sim_matrix = df[0]
     print(np.min(sim_matrix), np.max(sim_matrix))
     print(np.sum(sim_matrix, axis=1))
     for n_nb in n_nb_list:
